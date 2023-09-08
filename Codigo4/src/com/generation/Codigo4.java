@@ -1,5 +1,9 @@
 package com.generation;
-
+/*
+ * Este código realiza el juego de piedra, papel y tijeras, se imprimen las instrucciones para cada jugador.
+ * Se solicita que se ingrese su respuesta en la consola y se lee mediante Scanner
+ * En la evaluacion If se analiza si es 
+ */
 import java.util.Scanner;//importe la clase Scanner
 
 public class Codigo4 {
@@ -13,7 +17,7 @@ public class Codigo4 {
 		System.out.print("Turno del jugador 2 (introduzca piedra, papel o tijeras): ");// corregir para que diga jugador 2
 		String j2 = sc.nextLine();// corregir a sc para el segundo escaner
 
-		if (j1.equals(j2)) {
+		if (j1.equals(j2)) {//usar .equals en lugar de "==" para poder evaluar Strings
 			System.out.println("Empate");
 		} else {
 			int g = 2;
